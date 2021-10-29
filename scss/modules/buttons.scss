@@ -1,0 +1,61 @@
+/***************************
+Button Modules
+***************************/
+.btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-image: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 12px 30px;
+  font-size: 1.313em;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+.btn-primary {
+  background: $blue;
+  color: white;
+  border-color: $blue;
+}
+.btn-primary:hover {
+  background: none;
+  border-color: white;
+  text-decoration: none;
+}
+.btn-nav {
+  color: white;
+}
+
+.btn-hero {
+  color: white;
+  font-size: 1.750em;
+  font-weight: normal;
+  padding: 15px 30px;
+  background: transparent;
+  border: solid 1px white;
+}
+
+.btn-hero:hover {
+  background: white;
+  color: #E65100;
+}
+
+/* menu caché */
+.btn-toggle-menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+ /*Display toggle menu on small device */
+@media (min-width: 48em) {
+  .btn-toggle-menu {
+    display: none;
+  }
+}
+
+
