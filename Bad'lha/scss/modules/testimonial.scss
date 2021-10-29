@@ -1,0 +1,40 @@
+/*Testimonial Modules*/
+.testimonial {
+  text-align: center;
+  opacity: 0.9;
+}
+
+.testimonial-primary {
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    min-height: 350px;
+    background-image: url(univers-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: 0px 0px 10px 1px $black;
+    .fa {
+      color: gold;
+    }
+}
+.testimonial-body {
+    color: #fff;
+    text-shadow: 2px 2px 1px $black;
+}
+
+.testimonial-title {
+  font-size: 3em;
+    margin: 0;
+    text-shadow: 3px 3px 4px $black;
+  @include small-and-above {
+  font-size: 3.5em;
+}
+}
+.testimonial-subtitle {
+  font-size: 1.3em;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.4em;
+}
