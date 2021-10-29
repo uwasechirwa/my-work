@@ -1,0 +1,24 @@
+/***************************
+Header
+***************************/
+.header-primary {
+  background: black;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+    background: none;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .container {
+      @include flexbox-display();
+    }
+    @include medium-and-above {
+      padding-top: 40px;
+    }
+  }
